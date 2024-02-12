@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.wrapper button {
+  padding: 10px 20px;
+  background: #61c2fb;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.accordion {
+  width: 500px;
+}
+
+.item {
+  background-color: #9b51e0;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+}
+.title {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.content {
+  color: white;
+  height: auto;
+}
+.plusIcon {
+  font-size: 30px;
+  margin-top: 10px;
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+  color: #9b51e0;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.mtop {
+  margin-top: 20px;
+}
